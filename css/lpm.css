@@ -1,0 +1,22 @@
+section{
+  padding-bottom: 50px;
+  padding-top: 50px;
+}
+.section-header{
+  font-size: 3em;
+  text-align: center;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+#section1{
+  background-color: black;
+  height: 500px;
+}
+#section2{
+  background-color: #601c1e;
+}
+#section3{
+  background-color: #d3353f;
+}
