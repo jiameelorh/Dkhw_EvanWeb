@@ -23,4 +23,8 @@ section{
 #section4{
   background-color: #f98240;
 }
+.Picture{
+  height: 700px;
+  object-fit: contain;
+}
 /* , #face5a, #fef9e4*/
