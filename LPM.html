@@ -74,6 +74,7 @@
       <div class="row">
         <div class="col-md">
           <h1>Milestone 1</h1>
+          <h3><i>Hardware</i></h3>
           <p>
             We managed to meet reach our first milestone quickly as we had previous labsheet that contains instruction on how to link the hardware (LCD and Temperature sensors) up to the PI. <br>
             However we our temperature sensor had been fried as we were collecting too much data for a long period of time. Therefore we had to replace to a better one. <br>
@@ -82,16 +83,21 @@
         </div>
         <div class="col-md">
           <h1>Milestone 2</h1>
+          <h3><i>Machine Learning Logic</i></h3>
           <p>
             Azzi and I had decided to split the job by software and hardware, to ensure that we are on track and able to meet the deadline. <br><br>
-            For machine learning, I had to research and find the most suitable regression for the project.<br>
-            Thankfully I was able to find a cheatsheet that microsoft had produce and it contains lot of useful information that is being simplified for us to understand.
+            For machine learning, I had to research and find the most suitable regression for the project.
+            Thankfully I was able to find a cheatsheet that microsoft had produce and it contains lot of useful information that is being simplified for us to understand. <br><br>
+            For abnormal detection we used one-class support vector machine as it aims to determine a suitable region in the input data space, χ, which includes most of the samples drawn from an unknown probability distribution, P. It detects objects that resemble training samples. <br>
+            For Threshold readings we used poisson regression as it as it is a generalized linear model form of regression analysis used to model count data and contingency tables. Poisson regression assumes the response variable Y has a Poisson distribution, and assumes the logarithm of its expected value can be modeled by a linear combination of unknown parameters.
           </p>
         </div>
         <div class="col-md">
           <h1>Milestone 3</h1>
+          <h3><i>Display Data on Visual Charts</i></h3>
           <p>
-            We didn't manage to complete milestone 3 as I was having some error downloading the libaries and enviroment into the Raspberry PI. As we didn't use Jupyter, which was taught in school but rather we had to go into command prompt to download.
+            We didn't manage to complete milestone 3 as I was having some error downloading the libaries and enviroment into the Raspberry PI. As we didn't use Jupyter, which was taught in school but rather we had to go into command prompt to download. <br>
+            We tried alternative like using Power BI which was useful however we couldn't access to the full capbility of it as we didn't have the premium feature, which required us to pay monthly.
           </p>
         </div>
       </div>
@@ -103,24 +109,27 @@
       <div class="row">
         <div class="col-md">
           <h1>Milestone 4</h1>
+          <h3><i>Creating Programme and Get data from programme</i></h3>
           <p>
-            For this milestone, I have maanged to get the azure programme working. We are able to post data and get results. and with close analysis I felt that we had managed to get the desired results
+            For this milestone, I have maanged to get the azure programme working. We are able to post data and get results. and with close analysis I felt that we had managed to get the desired results <br><br>
+            Upon setting up the Raspberry PI, we faced a python incompatible issues as we couldn't run certain hardware(LCD Screen) on python 2.7 but on python 3.5 its able to work.
           </p>
         </div>
         <div class="col-md">
           <h1>Milestone 5</h1>
+          <h3><i>Train model and collect results</i></h3>
           <p>
             After having to collect the data from the PI, we are able to collect 10,000 over readings for a period of time on a unhealthy machine. <br><br>
             After try and error I've realise it is easier to input an unhealthy machine data instead of a healthy one. As from there azure is able to tell the different between the healthy and unhealthy reading. <br><br>
-            I've used One-Class Support Vector Machine for my anomoly detection and Boosted Decsion tree regression for my threshold prediction.
           </p>
         </div>
         <div class="col-md">
           <h1>Milestone 5</h1>
+          <h3><i>Prototype and refining</i></h3>
           <p>
             Prototype has finally work despite having some hiccups with the Raspberry PI. <br><br>
-            The Raspberry PI that was provided had a older version of python which doesn't allow my code to work due to syntax error and etc. However after searching on how to update the Python version and downloading certain libaries. The Code works and we are able to talk to microsoft Azure.
-
+            The Raspberry PI that was provided had a older version of python which doesn't allow my code to work due to syntax error and etc. However after searching on how to update the Python version and downloading certain libaries. The Code works and we are able to talk to microsoft Azure. <br><br>
+            For this milestone we also took my partner's bike on a ride to collect the temperature reading. we took one on idle and another when we had to ride around school. This is to help train the model specifically when the temperature is in the healthy range and when it is not. As when you ride on a bike the engine would produce more heat than on idle. thus collecting this 2 set of data would help azure to learn the health btr.
           </p>
         </div>
       </div>
@@ -143,6 +152,9 @@
           <div class="carousel-item">
             <img class="d-block w-100 Picture" src="img\Blog\LPM\Anomaly detection.png" alt="4th slide">
           </div>
+          <div class="carousel-item">
+            <img class="d-block w-100 Picture" src="img\Blog\LPM\CollectionData.jpeg" alt="4th slide">
+          </div>
         </div>
         <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
           <span class="carousel-control-prev-icon" aria-hidden="true"></span>
@@ -152,6 +164,40 @@
           <span class="carousel-control-next-icon" aria-hidden="true"></span>
           <span class="sr-only">Next</span>
         </a>
+      </div>
+    </div>
+  </section>
+
+  <section id="section5">
+    <div class="container text-dark">
+      <h1 class="section-header">POTENTIAL GROWTH/ COLLABORATION</h1>
+      <p>
+        With this project I believe it has a lot of potential to grow and help Singapore to adopt LPM. Specifically companies that have large fleet of vehicles they require to check.
+      </p>
+      <div class="card-group text-white">
+        <div class="card bg-dark">
+          <img class="card-img-top" src="img\Blog\LPM\toyota.jpg" alt="Card image cap card-img">
+          <div class="card-body">
+            <h5 class="card-title">Car manufacturer</h5>
+            <p class="card-text">
+              By partnering with car manufacturers, we are able to gain access to existing sensors that can be useful to detect a need for maintence.<br>
+            </p>
+          </div>
+        </div>
+        <div class="card bg-dark">
+          <img class="card-img-top" src="img\Blog\LPM\carRental.jpg" alt="Card image cap card-img">
+          <div class="card-body">
+            <h5 class="card-title">Car Rental Companies</h5>
+            <p class="card-text">Car Rental Companies are able to better track their fleet of vehicles. To ensure that their vehicles are in good condition before renting out thier cars.</p>
+          </div>
+        </div>
+        <div class="card bg-dark">
+          <img class="card-img-top" src="img\Blog\LPM\transportfleet.jpg" alt="Card image cap card-img">
+          <div class="card-body">
+            <h5 class="card-title">Transport Companies</h5>
+            <p class="card-text">Transport comapny like union transport or ninja van are able to ensure their vans or trucks are safe to operate. As this vehicles are often ustilize on the daily basis, thus they require to do more checking monthly.</p>
+          </div>
+        </div>
       </div>
     </div>
   </section>

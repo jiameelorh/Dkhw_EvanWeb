@@ -23,8 +23,15 @@ section{
 #section4{
   background-color: #f98240;
 }
+#section5{
+  background-color: #face5a;
+}
 .Picture{
   height: 700px;
   object-fit: contain;
+}
+.card-img{
+  object-fit: cover;
+  height: 300px;
 }
 /* , #face5a, #fef9e4*/
