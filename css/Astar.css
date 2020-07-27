@@ -12,23 +12,5 @@ section{
 }
 #section1{
   background-color: black;
-  height: 1000px;
-}
-#section2{
-  background-color: #232f5f;
-}
-#section3{
-  background-color: #f6a000;
-}
-#section4{
-  background-color: #f98240;
-}
-.Picture{
-  height: 700px;
-  object-fit: contain;
-}
-.card-img{
-  object-fit: cover;
-  height: 300px;
 }
 /* , #face5a, #fef9e4*/
