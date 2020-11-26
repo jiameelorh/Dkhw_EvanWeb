@@ -1,0 +1,40 @@
+section{
+  padding-bottom: 50px;
+  padding-top: 50px;
+}
+.section-header{
+  font-size: 3em;
+  text-align: center;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+#section1{
+  background-color: black;
+  height: 1000px;
+}
+#section2{
+  background-color: #121D26;
+}
+#section3{
+  background-color: #394D59;
+}
+#section4{
+  background-color: #4D6873;
+}
+#section5{
+  background-color: #C1D4D9;
+}
+#section6{
+  background-color: #0D0D0D;
+}
+.Picture{
+  height: 700px;
+  object-fit: contain;
+}
+.card-img{
+  object-fit: cover;
+  height: 300px;
+}
+/*#121D26, #394D59, #4D6873, #C1D4D9, #0D0D0D */
