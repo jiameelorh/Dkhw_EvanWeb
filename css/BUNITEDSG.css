@@ -29,6 +29,18 @@ section{
 #section6{
   background-color: #0D0D0D;
 }
+#section7{
+  background-color: #121D26;
+}
+#section8{
+  background-color: #394D59;
+}
+#section9{
+  background-color: #4D6873;
+}
+#section10{
+  background-color: #C1D4D9;
+}
 .Picture{
   height: 700px;
   object-fit: contain;
